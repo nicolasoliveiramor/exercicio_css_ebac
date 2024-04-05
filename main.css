@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    margin-right: 10px;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0px;
+    font-family: sans-serif;
+}
+
+header .container {
+    display: flex;
+    color:  whitesmoke;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header .container h1{
+    border: solid 4px; 
+    color: whitesmoke;
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: black;
+    font-family: sans-serif; font-size: small;
+}
+
+header .cadastro {
+    position: relative;
+    right: -500px;
+}
+
+body > header .cadastro{
+    background-color: black;
+    padding: 12px;
+    border: solid 4px; 
+    color: whitesmoke;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+header .cadastro:hover {
+    background-color: #2f3640;
+    padding: 12px;
+    border: solid 4px; 
+    color: whitesmoke;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+header li{
+    display: inline;
+}
+
+header li a{
+    color: whitesmoke;
+    margin-left: 24px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article img{
+    width: 100%;
+    height: 35vh;
+    transition: transform 0.5s;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.articles article img:hover {
+    transform: scale(1.030);
+}
+
+.articles article{
+    width: 30%;
+}
+
+section h2 {
+    padding: 30px 0px 0px 0px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 16px 0px;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom:  8px;
+}
+
+/* editando e criando animação para os botões */
+
+.articles article a {
+    background-color: blue;
+    color: #f6f6fa;
+    padding: 10px 6px;
+    margin-top: 8px;
+    border-radius: 12px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 16px;
+    transition: transform 0.5s;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    transform: scale(1.035);
+}
+
+.articles article p, article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+/* Inclusão de border-radius as imagens */
+
+#left {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#center {
+    border-radius: 12px;
+}
+
+#right {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+/* colorindo as seções e os botões de link */
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a {
+    background-color: #009432;
+}
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
+
+#games {
+    background-color: rgba(0, 0, 220, 0.2);
+}
+
+#games .articles article a {
+    background-color: rgba(0, 0, 220, 0.4);
+}
+
+#noticias {
+    background-color: rgba(220, 0, 0, 0.3);
+}
+#noticias .articles article a {
+    background-color: rgba(220, 0, 0, 0.6);
+}
+
+/* criação de rodapé */
+
+footer {
+    margin: auto 0px;
+    padding: 30px 0px;
+    border-top: solid;
+    border-top-color: white;
+    background-color: #2f3640;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}
