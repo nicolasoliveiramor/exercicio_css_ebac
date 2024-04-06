@@ -195,6 +195,7 @@ section h2, .articles article {
 /* criação de rodapé */
 
 footer {
+    font-family: sans-serif;
     margin: auto 0px;
     padding: 30px 0px;
     border-top: solid;

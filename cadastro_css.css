@@ -1,0 +1,124 @@
+@keyframes background-button {
+    from {
+        background-color: #2f3640;
+    color: white;
+    border-radius: 12px;
+    border-width: 3px;
+    padding: 20px 36px;
+    font-weight: 600;
+    }
+
+    to {
+        position: relative;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    border-width: 3px;
+    padding: 20px 36px;
+    font-weight: 600;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #2f3640;
+    text-align: center;
+    padding-top: 13%;
+}
+
+header {
+    position: fixed;
+    border: solid;
+    border-radius: 24px;
+    border-width: 5px;
+    border-color: black;
+    background-color: white;
+    color: black;
+    margin:-100px 500px;
+    padding: 120px 50px 80px 50px;
+    /*padding-bottom: 80px;*/
+}
+
+.cadastro form h1 {
+    position: relative;
+    top: -80px;
+    font-family: sans-serif;
+    font-size: xx-large
+}
+
+.cadastro form label, input {
+    font-family: sans-serif;
+    position: relative;
+    top: -35px;
+    font-size: large;
+    border-radius: 8px;
+}
+
+.cadastro label {
+    font-weight: 600;
+}
+
+.cadastro form input {
+    cursor: text;
+    text-align: initial;
+}
+
+#sobrenome_position {
+    position: relative;
+    right: 22px;
+}
+
+#sobrenome {
+    position: relative;
+    right: 21px;
+}
+
+.cadastro form button {
+
+    background-color: #2f3640;
+    color: white;
+    border-radius: 12px;
+    border-width: 3px;
+    padding: 20px 36px;
+    font-weight: 600;
+}
+
+.cadastro form button:hover {
+    position: relative;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    border-width: 3px;
+    padding: 20px 36px;
+    font-weight: 600;
+    animation: background-button;
+    animation-duration: 100ms;
+}
+
+body > footer .principal {
+    background-color: aliceblue;
+    border-top: solid;
+    border-top-color: black;
+    border-top-width: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 70px;
+}
+
+.principal p {
+    color: black;
+    margin-bottom: 25px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: sans-serif;
+    font-weight: 600;
+}
