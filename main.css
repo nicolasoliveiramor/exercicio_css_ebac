@@ -145,18 +145,8 @@ section h2, .articles article {
 
 /* Inclusão de border-radius as imagens */
 
-#left {
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-}
-
-#center {
+.container img {
     border-radius: 12px;
-}
-
-#right {
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
 }
 
 /* colorindo as seções e os botões de link */
