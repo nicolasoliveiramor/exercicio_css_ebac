@@ -112,15 +112,12 @@ section h2 {
 }
 
 .secao1, .secao2, .secao3 {
-.secao1, .secao2, .secao3 {
     padding: 16px 0px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
     border-bottom: solid ;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
     border-bottom: solid ;
 }
-
-
 
 section h2, .articles article {
     margin-bottom: 16px;
