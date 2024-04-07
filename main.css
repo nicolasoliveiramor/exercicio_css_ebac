@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -13,6 +14,8 @@ body > header {
     background-color: #2f3640;
     padding: 16px 0px;
     font-family: sans-serif;
+    border-bottom: solid;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.3);
     border-bottom: solid;
     box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.3);
 }
@@ -70,6 +73,7 @@ header li a{
 header li a:hover {
     text-decoration: underline;
     box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4);
 }
 
 .container {
@@ -108,10 +112,14 @@ section h2 {
 }
 
 .secao1, .secao2, .secao3 {
+.secao1, .secao2, .secao3 {
     padding: 16px 0px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
     border-bottom: solid ;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    border-bottom: solid ;
 }
+
 
 
 section h2, .articles article {
@@ -185,13 +193,16 @@ section h2, .articles article {
 
 #economy {
     background-color: rgba(255, 215, 0, 0.35);
+    background-color: rgba(255, 215, 0, 0.35);
 }
 
 #economy .articles article a {
     background-color: rgba(200, 130, 0, 1);
+    background-color: rgba(200, 130, 0, 1);
 }
 
 #games {
+    background-color: rgb(0, 0, 220, 0.2);
     background-color: rgb(0, 0, 220, 0.2);
 }
 
